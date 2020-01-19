@@ -1,47 +1,10 @@
 <nav class="navbar">
-    <a href="<%= config.root %>">Home</a>
-    <a href="/blog/about">About</a>
-    <a href="/blog/archive">Archives</a>
-    <a href="/blog/categories">Categories</a>
-    <a href="/blog/tags">Tags</a>
+    <a class="nav" href="<%= config.root %>">Home</a>
+    <a class="nav" href="/blog/about">About</a>
+    <span id="archives" class="nav">Archives</span>
+    <span id="categories" class="nav">Categories</span>
+    <span id="tags"class="nav">Tags</span>
 </nav>
-
-<div id="inside">
-    <h1><a href="<%= config.root %>" title="home"><%= config.title %></a></h1>
-    <div class="smol sub"><%= config.subtitle %></div>
-    <div id="navbar">
-        <div class="nav"><a href="/blog/about">about</a></div>
-        <div class="nav"><a href="/blog/archives">archives</a>
-            <div class="dropdown">
-                <%- list_archives({
-                    class: 'item',
-                    order: 'asc',
-                    show_count: false,
-                    style: 'none',
-                    separator: ''
-                }) %>
-            </div>
-        </div>
-        <div class="nav">categories<i class="fas fa-caret-down"></i>
-            <div class="dropdown">
-                <%- list_categories({
-                    class: 'item',
-                    show_count: false,
-                    style: 'none',
-                    separator: ''
-                }) %>
-            </div>
-        </div>
-        <div class="nav">tags<i class="fas fa-caret-down"></i>
-            <div class="dropdown">
-                <%- list_tags({
-                    class: 'item',
-                    show_count: false,
-                    style: 'none',
-                    separator: ''
-                }) %>
-            </div>
-        </div>
-    </div>
+<div id="banner">
+    <%- image_tag('header.jpg', { class: 'header' }) %>
 </div>
-<div class="divider"></div>

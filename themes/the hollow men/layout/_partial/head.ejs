@@ -4,6 +4,8 @@
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Mono:400,700&display=swap" rel="stylesheet" />
+    <%- css('css/style') %>
     
     <%
     var title = '';
@@ -18,5 +20,5 @@
     %>
     
     <title><% if (title){ %><%= title %> | <% } else if (page.title) { %><%= page.title %> | <% } %><%= config.title %></title>
-    <%- css('css/style') %>
+    
 </head>
