@@ -1,6 +1,7 @@
-<% if (post.tags && post.tags.length){ %>
-  <%- list_tags(post.tags, {
+<% if (site.tags && site.tags.length){ %>
+  <%- list_tags(site.tags, {
     show_count: false,
-    class: 'article-tag'
+    class: 'article-tag',
+    style: 'none'
   }) %>
 <% } %>
