@@ -24,7 +24,7 @@ a:hover {
     transition: ease-in-out 0.1s;
 }
 
-a.item, a.page {
+a.item-link, a.page {
     color: #4A5567;
 }
 
@@ -220,7 +220,7 @@ a.continue:hover {
     display: inline-block;
 }
 
-.item {
+.item-link {
     display: list-item;
     list-style-position: inside;
     margin: 0;
@@ -229,7 +229,7 @@ a.continue:hover {
     padding: 0.3rem 1rem 0.3rem 1.2rem;
 }
 
-a.item:hover {
+a.item-link:hover {
     background-color: rgba(92, 107, 136, 0.24);
     border: 0;
 }
