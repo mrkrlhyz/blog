@@ -1,0 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+    <%
+    var title = '';
+  
+    if (is_archive()){
+      title += 'archives';
+    } else if (is_category()){
+      title += 'category: ' + page.category;
+    } else if (is_tag()){
+      title += 'tag: ' + page.tag;
+    }
+    %>
+    
+    <title><% if (title){ %><%= title %> | <% } else if (page.title) { %><%= page.title %> | <% } %><%= config.title %></title>
+    <%- css('css/style') %>
+</head>
