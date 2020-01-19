@@ -1,0 +1,7 @@
+<nav class="pagination">
+    <% if (page.prev) { %> <a class="page" href="<%- config.root %><%- page.prev_link %>" title="previous page">&laquo;</a>
+    
+    <span class="pages">page <%- page.current %> of <%- page.total %></span>
+    
+    <% if (page.next) { %> <a class="page" href="<%- config.root %><%- page.next_link %>" title="next page">&raquo;</a>
+</nav>

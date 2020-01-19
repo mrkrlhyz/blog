@@ -1,0 +1,42 @@
+<%  
+    var excerpt = false;
+    function excerptize(string) {
+        var sp = string.split(' ');
+        var lastWord = sp[(sp.length >= 80 ? 80 : sp.length - 1)];
+        var i = string.indexOf(lastWord) + lastWord.length;
+        var output = string.slice(0, i);
+        if (string != output) excerpt = true; 
+        return output;
+    }
+%>
+
+<div class="post">
+    <div class="post-header">
+        <div class="title">
+            <h1><%= post.title %></h1>
+            <a class="permalink" href="<%- config.root %><%- post.path %>" title="permalink"><i class="fas fa-link"></i></a>
+        </div>
+    
+        <div class="info">
+            <span class="time"><i class="far fa-calendar-alt"></i> <%= date(post.date, config.date_format) %></span>
+            <span class="time"><i class="far fa-clock"></i> <%= date(post.time, config.time_format) %></span>
+            <span class="tags">filed under: 
+                <% if (post.categories && post.categories.length) { %> 
+                    <%- list_categories(post.categories, {
+                        show_count: false,
+                        class: '',
+                        style: 'none',
+                        separator: ','
+                    }) %>
+                <% } else { %> none <% } %></span>
+        </div>
+    </div>
+
+    <div class="post-body">
+        <p><% if(post.excerpt) { %><%- post.excerpt %> &#8230; <% } else {%> <%-post.content %><% } %> </p>
+        
+        <% if(post.excerpt) { %> 
+            <a class="continue" href="<%- url_for(post.path) %>">read more</a>
+        <% } %>
+    </div>
+</div>

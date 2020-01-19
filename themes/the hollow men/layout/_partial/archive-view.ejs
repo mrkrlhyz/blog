@@ -1,0 +1,28 @@
+<%
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var title = '';
+    if (page.category) title = 'filed under: ' + page.category;
+    if (page.tag) title = 'posts tagged: ' + page.tag;
+    if (page.archive){
+        if (page.year) title = (page.month ? months[page.month-1] + ' ' : '') + page.year;
+        if (title.length) title += " archives";
+        else title = "archives";
+    }
+
+%>
+
+
+<div id="post" class="content">
+    <h5 id="title"><%- title %></h5>
+    <p><% page.posts.each(function(post){ %>
+
+        <div class="archive-date"><%= date(post.date, config.date_format) %></div>
+        <a href="<%- config.root %><%- post.path %>">
+            <%- post.title %>
+        </a>
+        <br>  
+    <% }); %>
+</p>
+        
+</div>
+
