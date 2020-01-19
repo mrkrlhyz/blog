@@ -1,0 +1,1 @@
+@echo off | hexo generate && hexo clean && hexo deploy
