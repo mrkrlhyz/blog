@@ -17,19 +17,18 @@
         <div class="title">
             <h1><%- title %></h1>
         </div>
+        <div class="info"></div>
     </div>
     <div class="post-body">
-        <p><% page.posts.each(function(post){ %>
-
-            <div class="archive-date"><%= date(post.date, config.date_format) %></div>
-            <a href="<%- config.root %><%- post.path %>">
-                <%- post.title %>
-            </a>
-            <br>  
-        <% }); %>
+        <div class="archives-list">
+            <% page.posts.each(function(post){ %>
+            <div class="archive">
+                <div class="archive-date"><%= date(post.date, 'MMM D YYYY') %></div>
+                <a class="archive-link" href="<%- config.root %><%- post.path %>"><%- post.title %></a>
+            </div>
+            <% }); %>
+        </div>
     </div>
-    
-</p>
         
 </div>
 

@@ -39,5 +39,5 @@ Here's to focusing on personal projects and improving on web development this ye
 
 ---------------
 
-<smallthis post was imported from my [tumblr](https://aufeume.tumblr.com) blog (with edits)</small>
+<small>this post was imported from my [tumblr](https://aufeume.tumblr.com) blog (with edits)</small>
 <small>([link to original post](https://aufeume.tumblr.com/post/169928464747/alright))</small> 
