@@ -272,6 +272,7 @@ a.page:hover {
     flex-direction: row;
     margin: 0.3rem 0;
     padding: 0.1rem;
+    align-items: center;
 }
 
 .archives-list .archive .archive-date {
@@ -282,7 +283,7 @@ a.page:hover {
     text-transform: uppercase;
     font-weight: 700;
     color: #3A414B;
-    min-width: 15%;
+    min-width: 20%;
 }
 
 .archives-list .archive .archive-link {
