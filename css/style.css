@@ -15,13 +15,13 @@ i { padding: 0 0.2rem; }
 a, a:active, a:visited { 
     color: rgb(140, 155, 196); 
     text-decoration: none; 
-    transition: ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
 }
 
 a:hover {
     border-bottom: rgba(111, 122, 153, 0.8) 1px dotted; 
     color: #3A414B;
-    transition: ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
 }
 
 a.item-link, a.page {
@@ -172,7 +172,7 @@ a.continue {
     /* letter-spacing: 0.5px; */
     padding: 0.25rem 0.5rem;
     border-bottom: 0;
-    background:  rgba(155, 170, 211, 0.25);
+    background:  #F5F6FB;
     color: #212529;
     transition: ease-in-out 0.3s
 }
@@ -180,7 +180,7 @@ a.continue {
 a.continue:hover {
     color: #424959;
     border-bottom: 0;
-    background-color: rgba(155, 170, 211, 0.1);
+    background-color: rgba(212, 218, 236, 0.7);
     transition: ease-in-out 0.3s;
 }
 
@@ -201,7 +201,7 @@ a.continue:hover {
     right: 0;
     top: 0;
     margin-top: 5rem;
-    background:  rgba(155, 170, 211, 0.1);
+    background:  rgba(245, 246, 251, 0.842);
     padding: 1rem 0;
 }
 
@@ -217,6 +217,7 @@ a.continue:hover {
     padding: 0.3rem 2.8rem 0.5rem 0.2rem;
     border-bottom: 3px rgba(111, 122, 153) solid;
     display: inline-block;
+    color: #3A414B;
 }
 
 .item-link {
@@ -260,17 +261,36 @@ a.page:hover {
     color: rgb(140, 155, 196);
 }
 
-.archive {
+.archives-list {
     display: block;
-    margin: 0.4rem 0;
+    margin: 0 auto;
+}
+
+.archives-list .archive {
+    display: flex;
+    flex-direction: row;
+    margin: 0.3rem 0;
     padding: 0.1rem;
 }
 
-.archive-date {
-    display: inline-block;
+.archives-list .archive .archive-date {
+    display: flex;
+    flex-direction: column;
     margin-right: 0.8rem;
     font-size: small;
     text-transform: uppercase;
     font-weight: 700;
-    color: #3A414B
+    color: #3A414B;
+    min-width: 15%;
+}
+
+.archives-list .archive .archive-link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+a.archive-link, a.archive-link:hover {
+    transition: none;
 }
