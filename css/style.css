@@ -260,3 +260,18 @@ a.page:hover {
     border: 0;
     color: rgb(140, 155, 196);
 }
+
+.archive {
+    display: block;
+    margin: 0.2rem 0;
+    padding: 0.1rem;
+}
+
+.archive-date {
+    display: inline-block;
+    margin-right: 0.8rem;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3A414B
+}
