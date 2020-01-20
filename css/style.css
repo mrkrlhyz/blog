@@ -193,7 +193,6 @@ a.continue:hover {
     overflow-wrap: normal;
     width: 180px;
     max-width: 200px;
-    max-height: 253px;
     white-space: normal;
 }
 
@@ -263,7 +262,7 @@ a.page:hover {
 
 .archive {
     display: block;
-    margin: 0.2rem 0;
+    margin: 0.4rem 0;
     padding: 0.1rem;
 }
 
