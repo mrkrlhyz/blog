@@ -7,12 +7,12 @@ welcome to my personal blog slapped with a whole shitload of drama (sometimes). 
 
 ------------
 
-##### about the blog
+#### about the blog
 powered by: [hexo](https://hexo.io/)
 official birth (deploy) date: 06/13/2018
 title/subtitle: leah, stardew valley (added 08/18/2018)
 
-###### theme history
+##### theme history
 
 06/13/2018 - 01/20/2020 : ___bare minimum___ by me
-01/20/2020 - present : ___the hollow men___ by me
+01/20/2020 - present : ___the hollow men___ by me <small>([photo and inspiration credit](https://msu.edu/~jungahre/transmedia/the-hollow-men.html))</small>
