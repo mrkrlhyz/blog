@@ -6,17 +6,17 @@ categories:
 tags:
     - drama
     - plans
+    - dealing with grief
 ---
 
 <small>_**now playing:** when am i gonna lose you - local natives_
 <small>on repeat again for like the thousandth time just this week</small></small>
 
-This day hasn't been as good as I would have wanted it to be.
-
+This day hasn't been as good as I would have wanted it to be. <!--more -->
 Learned this morning that my ex died a few days ago. Fatal gunshot.
 I didn't think I'd be affected, but here I am, writing about it. Not to mention I even cried about it shortly after hearing the news.
 
-I'm still in shock and disbelief. We're not really friends anymore, but I suppose it's always shocking since we did share <!-- more --> something in the past anyway. Maybe that's how empathy works. Maybe I have a heart anyway. I just didn't expect that I'd be _this_ affected. It's a shock that he has to go this way.
+I'm still in shock and disbelief. We're not really friends anymore, but I suppose it's always shocking since we did share something in the past anyway. Maybe that's how empathy works. Maybe I have a heart anyway. I just didn't expect that I'd be _this_ affected. It's a shock that he has to go this way.
 
 Haven't stopped thinking about it since this morning. I'm trying not to post/talk about it publicly because I don't feel like I have the right to. All the words I have in my head for him are cliché words people usually say when someone has died. 
 However I'm not trying to say that they aren't genuine. It's just really sad and shocking.

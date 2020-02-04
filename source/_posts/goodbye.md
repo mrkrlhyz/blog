@@ -4,9 +4,9 @@ date: 2020-01-26 17:40:26
 categories:
     - [life]
 tags:
+    - dealing with grief
 ---
-
-Semantic satiation - a psychological phenomenon in which repetition causes a word or phrase to temporarily lose meaning for the listener, who then perceives the speech as repeated meaningless sounds. 
+Semantic satiation - a psychological phenomenon in which repetition causes a word or phrase to temporarily lose meaning for the listener, who then perceives the speech as repeated meaningless sounds. <!-- more -->
 I thought repeatedly talking and thinking about the news of your death would somehow lose its meaning and dampen the brunt of impact on me, but I suppose that doesn't work if you're just purposefully drowning your emotions in denial. It all dawned on me after almost 3 hours of travel to come see you. It was all real, right in front of me.
 
 James, the last time we saw each other was around the same time two years ago, January 2018. I would have never thought that the next time I would see you you'd be in your best suit, lying lifeless in a casket. You had to be taken away in the most brutal, violent way possible. There's just no acceptable reason for you to go this way. You were powerless. You didn't deserve this.
