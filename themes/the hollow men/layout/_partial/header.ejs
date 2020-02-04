@@ -1,10 +1,12 @@
-<nav class="navbar">
-    <a class="nav" href="<%= config.root %>">Home</a>
-    <a class="nav" href="/blog/about">About</a>
-    <span id="archives" class="nav">Archives</span>
-    <span id="categories" class="nav">Categories</span>
-    <span id="tags"class="nav">Tags</span>
-</nav>
-<div id="banner">
-    <%- image_tag('header.jpg', { class: 'header' }) %>
-</div>
+<header>
+    <nav class="navbar">
+        <a class="nav" href="<%= config.root %>">Home</a>
+        <a class="nav" href="/blog/about">About</a>
+        <span id="archives" class="nav">Archives</span>
+        <span id="categories" class="nav">Categories</span>
+        <span id="tags"class="nav">Tags</span>
+    </nav>
+    <div id="banner">
+        <%- image_tag('header.jpg', { class: 'header' }) %>
+    </div>
+</header>
