@@ -19,7 +19,7 @@
     
         <div class="info">
             <span class="time"><i class="far fa-calendar-alt"></i> <%= date(post.date, config.date_format) %></span>
-            <span class="time"><i class="far fa-clock"></i> <%= date(post.time, config.time_format) %></span>
+            <span class="time"><i class="far fa-clock"></i> <%= time(post.date, config.time_format) %></span>
             <span class="categories">filed under: 
                 <% if (post.categories && post.categories.length) { %> 
                     <%- list_categories(post.categories, {

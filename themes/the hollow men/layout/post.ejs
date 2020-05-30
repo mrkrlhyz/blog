@@ -7,7 +7,7 @@
     
         <div class="info">
             <span class="time"><i class="far fa-calendar-alt"></i> <%= date(page.date, config.date_format) %></span>
-            <span class="time"><i class="far fa-clock"></i> <%= date(page.time, config.time_format) %></span>
+            <span class="time"><i class="far fa-clock"></i> <%= time(page.date, config.time_format) %></span>
             <span class="categories">filed under: 
                 <% if (page.categories && page.categories.length) { %> 
                     <%- list_categories(page.categories, {
