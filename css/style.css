@@ -48,7 +48,20 @@ header {
     justify-content: center;
     align-items:center;
     max-width: 700px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    position:relative;
     /* border-bottom: 1px solid #eee; */
+}
+
+nav.navbar {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0.3rem;
+    box-sizing: border-box;
+    align-self: center; 
+    max-width: 700px;
 }
 
 #banner {
@@ -56,7 +69,6 @@ header {
     justify-content: center;
     padding: 2px;
     border: 2px #f1f1f1 solid;
-    width: 700px;
     text-align: center;
 }
 
@@ -65,14 +77,8 @@ header {
     padding: 0.8rem;
     margin: 0;
     align-self: center; 
-}
-
-nav.navbar {
-    display: inline-flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0.3rem;
-    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 a.nav, a.nav:active, a.nav:visited, .nav {
@@ -84,6 +90,7 @@ a.nav, a.nav:active, a.nav:visited, .nav {
     margin: 0;
     transition: ease-out 0.3s;
     cursor: pointer;
+    overflow: hidden;
 }
 
 a.nav.active, .nav.active {
